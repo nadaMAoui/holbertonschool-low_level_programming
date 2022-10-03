@@ -4,9 +4,9 @@
 /**
  * main -entry to the main
  *
- *Description:'a sorted var is postive or negative'
-
- * return: 0 in case of success
+ * description : 'priintf a sorted var is positive or negative'
+ *
+ * return: return 0 in sucess
  */
 int main(void)
 
@@ -28,6 +28,5 @@ int main(void)
 		{	
 			printf("%d is negative\n", n);
 		}
-
 		return (0);
 	}
