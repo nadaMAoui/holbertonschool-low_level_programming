@@ -5,9 +5,9 @@
 /**
  * main - Entry point
  *
- * description : 'output last digit of n and compared it'
+ * Description: 'output last digit of n and compared it'
  *
- * return : Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
