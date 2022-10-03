@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<time.h>
 /**
- * main -entry to the main
+ * main - entry to the main
  *
  * description : 'priintf a sorted var is positive or negative'
  *
