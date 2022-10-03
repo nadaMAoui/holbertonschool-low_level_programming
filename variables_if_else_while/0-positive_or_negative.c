@@ -3,11 +3,11 @@
 #include<time.h>
 
 /**
- * main - entry to the main
+ * main - entry point
  *
- * description : 'print if a sorted var is positive or negative'
+ * Description : 'print if a sorted var is positive or negative'
  *
- * return: return 0 in sucess
+ * Return: return 0 (sucess)
  */
 int main(void)
 
