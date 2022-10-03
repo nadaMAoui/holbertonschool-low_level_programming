@@ -19,8 +19,8 @@ for (i = 97; i <= 101; i++)
 {
 	putchar(i);
 }
-putchar(i);
-putchar('\n');
+putchar('\n', i);
+
 
 
 return (0);
