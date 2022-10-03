@@ -3,7 +3,9 @@
 #include<time.h>
 /**
  * main -entry to the main
+ *
  *Description:'a sorted var is postive or negative'
+
  * return: 0 in case of success
  */
 int main(void)
