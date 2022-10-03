@@ -3,21 +3,22 @@
 #include<time.h>
 /**
  * main -entry to the main
- *Description:a sorted var is postive or negative
+ *Description:'a sorted var is postive or negative'
  * return: 0 in case of success
  */
 int main (void)
+
 	{
 		int n;
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 
-		if (n>0)
+		if (n > 0)
 		{
 			printf("%d is positive\n", n);
 		}
-		else if (n==0)
+		else if (n == 0)
 		{
 			printf("%d is zero\n", n);
 		}
