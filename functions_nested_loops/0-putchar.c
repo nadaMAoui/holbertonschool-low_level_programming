@@ -8,8 +8,7 @@
  * Return: return 0 (success)
  */
 int main(void)
-{	
-	int string; 
+{ 
 
 	{ 
 		printf("_putchar");
