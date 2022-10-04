@@ -3,22 +3,22 @@
 /**
  * main - void
  *
- * Description: 'prints 10 times the alphabet, in lowercase'
+ * Description: 'prints the alphabet, in lowercase, followed by a new line'
  *
- * return: return void
-*/
-void print_alphabet (void)
+ * Return: Always void (Success) 
+ */
+void print_alphabet_x10(void)
 {
 	int i;
 	int j;
 
-	
-		for (j = 0; i < 10; j++)
-		{	
-			for (i = 97; i <= 122; i++)
-			{
-				_putchar(i);
-			}
-		        _putchar('\n');
+
+	for (j = 0; i < 10; j++)
+	{	
+		for (i = 97; i <= 122; i++)
+		{
+			_putchar(i);
 		}
+		_putchar('\n');
+	}
 }
