@@ -7,7 +7,7 @@
  *
  * return: return void
 */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void)2-print_alphabet_x10.c
 {
 	int i;
 	int j;
@@ -16,7 +16,7 @@ void print_alphabet_x10(void)
 		{	
 			for (i = 97; i <= 122; i++)
 			{
-				putchar (i);
+				putchar(i);
 			}
 		}
 	putchar('\n');
