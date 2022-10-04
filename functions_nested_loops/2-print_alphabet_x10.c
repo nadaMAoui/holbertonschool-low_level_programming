@@ -8,9 +8,7 @@
  */
 void print_alphabet(void)
 {
-	int i;
-	int j;
-
+	int i, j;
 
 	for (j = 0; i < 10; j++)
 	{	
