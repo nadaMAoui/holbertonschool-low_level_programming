@@ -4,8 +4,6 @@
  *
  *@n: integer to use
  *
- *@x: integer to use
- *
  * Return: retun x  (success)
 */
 int print_last_digit(int n)
