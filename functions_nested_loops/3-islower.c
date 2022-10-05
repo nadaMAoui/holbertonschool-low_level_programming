@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * _islower - Entry point
+ * _islower - check the lower case
  *
  * @c: integer
  *
@@ -10,13 +10,12 @@
 */
 int _islower(int c)
 {
-char ch = c;
-
-if (islower(c) == 1)
-{
-	return (1);
-}
-else{	
-	return (0);
-}
+	if (c >= 97 && c < 123)
+	{
+		return (1);
+	}
+	else 
+	{
+		return (0);
+	}
 }
