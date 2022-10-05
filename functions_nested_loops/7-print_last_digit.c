@@ -6,7 +6,7 @@
  *
  *@x: integer to use
  *
- * Return: retun digit  (success)
+ * Return: retun x  (success)
 */
 int print_last_digit(int n)
 {
