@@ -10,23 +10,13 @@
 */
 int _islower(int c)
 {
+char ch = c;
 
-int i;
-int c;
-
-for (i = 97; i <= 122; i++)
+if (islower(c) == 1)
 {
-	if ((i < 97 )) or (( i > 122 ));
+	return (1);
 }
-{
-	putchar('0');
-}
-else if
-{
-	putchar( (c= char (i);) + '0');
-}
-
-putchar('\n');
-return (0);
+else{	
+	return (0);
 }
 }
