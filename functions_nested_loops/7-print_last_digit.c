@@ -8,11 +8,11 @@
  *
  * Return: retun digit  (success)
 */
-int print_last_digit(int n)
+int print_last_digit(int digit)
 {
 	int digit;
-	
+	{
 	digit = n % 10;
-	
+	}
 	return (digit);
 }
