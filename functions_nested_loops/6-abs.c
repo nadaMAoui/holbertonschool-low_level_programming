@@ -2,7 +2,7 @@
 /**
  * _abs - Description: 'absolute value'
  *
- *@n: integer to use 
+ *@n: integer to use
  *
  * Return: return 0 (success)
  */
