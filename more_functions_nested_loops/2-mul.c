@@ -4,7 +4,7 @@
  *
  * @a: integer to use
  * 
- * @a: integer to use
+ * @b: integer to use
  * 
  * Return: return 1 or 1
 */
