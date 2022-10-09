@@ -28,7 +28,7 @@ void print_times_table(int n)
 					}
 					putchar(' ');
 				}
-				printf("%d", row * col;
+				printf("%d", row * col);
 			}
 			putchar('\n');
 		}
