@@ -17,7 +17,6 @@ void print_times_table(int n)
             for (row = 0; row <= n; row++)
             {
                 M = (col * row);
-            }
             if (M < 10)
             {
                 if (col != 0)
@@ -35,20 +34,18 @@ void print_times_table(int n)
                     putchar((M / 10) + '0');
                     putchar((M % 10) + '0');
                 }
-                else if (M > 100)
+                else 
                 {
                     putchar(' ');
                     putchar((M / 100) + '0');
                     putchar(((M % 100)/10) + '0');
                     putchar((M / 10) + '0');
                 }
-                else
-                {
-                    if (col != n)           
+                    if (col != n)  
+                    putchar (',');         
                 }
-        }
                 putchar('\n');
-            }
+            
         }
     }
 }
