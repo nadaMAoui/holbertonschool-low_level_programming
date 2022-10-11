@@ -1,14 +1,14 @@
 #include "main.h"
-/*
+/**
 * _puts - fonction print string
-* @i: inetger 
-* return: void 
+* @str: inetger
+* return: void
 */
 void _puts(char *str)
 {
-int i = 0; 
+int i = 0;
 
-while(str[i] != '\0')
+while (str[i] != '\0')
 {
 putchar(str[i]);
 i = i + 1;
