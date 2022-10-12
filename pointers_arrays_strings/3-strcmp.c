@@ -25,7 +25,7 @@ int _strcmp(char *s1, char *s2)
         return (dif);
         }
     }
-        i+=;
+        i += 1;
 
     return (0);
 }
