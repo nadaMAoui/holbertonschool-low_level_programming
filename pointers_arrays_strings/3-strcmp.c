@@ -9,7 +9,7 @@
 
 int _strcmp(char *s1, char *s2)
 {
-    int i=0;
+    int i = 0;
     int dif; 
 
     while(*(s1 + i) != '0')
@@ -24,8 +24,8 @@ int _strcmp(char *s1, char *s2)
         dif = *(s1 + i) - *(s2 + i);
         return (dif);
         }
-        }
-        i+=;
     }
+        i+=;
+
     return (0);
 }
