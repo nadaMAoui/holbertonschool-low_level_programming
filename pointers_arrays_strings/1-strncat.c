@@ -1,37 +1,26 @@
 #include "main.h"
 /**
- * puts_half - prints half of string 
+ * _strcat - function that  concatenates two strings
+ * @dest: pointer to destination char
+ * @src: pointer to source char
+ * return: dest
 */
-void puts_half(char *str)
+char *_strncat(char *dest, char *src, int n);
 {
-    int i = 0;
-    int n = 0;
-    char ch;
-    while (str[i] != '\0') // calculer longeur de la chaine de caractere 
-    {
-    i += 1;  
-    }
-    ch = str[n];
-    n = / 2;
-    if (n % 2 = 0)
-    {
-        n += 1; // calculer nombre de case apres la division / 2
-    }
-    while ( str[n] != 0)
-    { 
-    putchar (* (str + n));
-    n += 1;
-    }
-    else if (n % 2 != 0)
-    {
-    putchar (* (str + n));
-    n += 1;
-    putchar (ch);
-    }
-    putchar ('\n');
+int i = 0;
+int j = 0;
+while (*(dest + i) != '\0')
+{
+i++;
 }
-
-
+while (*(src + j) != '\0')
 {
-
+{
+    if (j < n)
+*(dest + i) =  *(src + j);
+i++;
+}
+j++;
+}
+return (dest);
 }
