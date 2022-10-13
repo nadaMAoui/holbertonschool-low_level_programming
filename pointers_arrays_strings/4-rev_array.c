@@ -16,16 +16,14 @@ void reverse_array(int *a, int n)
 	last = a;
     
 	while (i < n)
-
-		i = i + 1;
+	i = i + 1;
 
 	while (j <= i)
 	{
-		tmp = *(last + i);
-		*(first + i) = *(last + j);
-		*(last + j) = tmp;
-		j++;
-		i--;
+	tmp = *(last + i);
+	*(first + i) = *(last + j);
+	*(last + j) = tmp;
+	j++;
+	i--;
 	}
-	
 }
