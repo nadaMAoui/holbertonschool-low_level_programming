@@ -2,8 +2,8 @@
 
 /**
  * string_toupper - function changes all lower case letter
- * @ch: pointer to string char
- * return: char
+ * @ch: pointer to char
+ * return: char.
 */
 char *string_toupper(char *ch)
 {
