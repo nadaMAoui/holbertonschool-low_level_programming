@@ -3,15 +3,15 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  * @ch: pointer to string char
- * return : char
+ * return: ch
 */
 char *string_toupper(char *ch)
 {
 int i = 0;
 
- while (*(ch + i) != '\0')
+while (*(ch + i) != '\0')
 {
-if (*(ch + i) >= 97 && *(ch + i) <= 122)  
+if (*(ch + i) >= 97 && *(ch + i) <= 122)
 *(ch + i) = *(ch + i) - ' ';
 i++;
 }
