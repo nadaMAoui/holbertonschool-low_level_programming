@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _memset - function that fills memory with n bytes
  * @s: memory filled to return
@@ -6,6 +7,7 @@
  * @n: size of a byte
  * return: char
 */
+
 char *_memset(char *s, char b, unsigned int n)
 { 
 unsigned int i = 0;
