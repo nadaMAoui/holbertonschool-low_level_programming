@@ -19,7 +19,7 @@ while (*haystack != '\0')
 reslt = haystack;
 auxl = needle;
 
-while (*auxl == *haystack && *auxl != '\0' 
+while (*auxl == *haystack && *auxl != '\0'
 && *haystack != '\0')
 {
 haystack++;
