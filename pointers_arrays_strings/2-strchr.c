@@ -1,8 +1,8 @@
-#include "main.h"   
+#include "main.h" 
 /**
  * _strchr - function that locates a character in a string
  * @s: pointer to char
- * @c: character recieved 
+ * @c: character recieved
  * Return: char
 */
 char *_strchr(char *s, char c)
@@ -15,14 +15,14 @@ if (*s == c)
 
 return (s);
 s++;
-        
+
 }
 
 if (*s == c)
 
-return(s);
+return (s);
 
 else 
 
-return(NULL);
+return (NULL);
 }
