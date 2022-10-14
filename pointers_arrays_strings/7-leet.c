@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
  * leet - function encodes a string into 1337
- * @ch: pointer to char 
- * return: char 
+ * @ch: pointer to char
+ * return: char
 */
 char *leet(char *ch)
 {
@@ -15,11 +16,11 @@ while (*(ch + i) != '\0')
 {
 while (*(letter + j) != '\0')
 {
-if (*(ch +i) == *(letter + j))
-*(ch +i) = *(number + j);
+if (*(ch + i) == *(letter + j))
+*(ch + i) = *(number + j);
 j++;
 }
-j= 0;
+j = 0;
 i++;
 }
 return (ch);
