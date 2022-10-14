@@ -6,10 +6,10 @@
 */
 char *leet(char *ch)
 {
-    int i = 0;
-    int j = 0;
-    char *letter = "aAeEoOtTlL"; 
-    char *number = "4433007711";
+int i = 0;
+int j = 0;
+char *letter = "aAeEoOtTlL";
+char *number = "4433007711";
 
 while (*(ch + i) != '\0')
 {
@@ -22,5 +22,5 @@ j++;
 j= 0;
 i++;
 }
-return (ch); 
+return (ch);
 }
