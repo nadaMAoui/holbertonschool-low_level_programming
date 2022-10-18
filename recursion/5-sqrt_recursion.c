@@ -24,7 +24,7 @@ int get_Sqr(int num, int i)
 	if (num == (i * i))
 		return (i);
 	else if (num > (i * i))
-		return (getNumSqr(num, i + 1));
+		return (get_Sqr(num, i + 1));
 	else
 		return (-1);
 }
