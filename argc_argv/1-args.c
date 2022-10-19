@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
-*main: prgram that prints number of arguments
+*main - prgram that prints number of arguments
 *@argc:program counter
 *@argv:program vector
-*Return: integer 
+*Return: integer
 */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
