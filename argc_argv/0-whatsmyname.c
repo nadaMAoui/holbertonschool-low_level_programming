@@ -3,7 +3,8 @@
 * main - program that prints its name
 *@argc: argument counter
 *@argv: argument vector
-*return: int
+*
+*Return: int
 */
 int main(int argc, char *argv[])
 {
