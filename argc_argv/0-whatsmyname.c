@@ -1,6 +1,11 @@
 #include<stdio.h>
-
-int main (int argc, char *argv[])
+/**
+* main - function that prints program name 
+*@argc:prgram counter 
+*@argv:program vector
+*return:int
+*/
+int main(int argc, char *argv[])
 {
 int i;
 for (i = 0; i < argc; i++)
