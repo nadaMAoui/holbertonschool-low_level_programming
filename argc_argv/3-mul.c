@@ -18,7 +18,7 @@ else
 {
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
-multiple = (num1 * num2);
+multiple = (num1 *num2);
 printf("%d\n", multiple);
 }
 return (0);
