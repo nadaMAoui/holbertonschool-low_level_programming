@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-* main - a function that adds positive numbers 
-*@argc: program counter 
+* main - a function that adds positive numbers
+*@argc: program counter
 *@argv: program vector
 *Return: int
 */
@@ -24,10 +24,10 @@ printf("%s\n", "Error");
 return(1);
 }
 }
- for (k = 1; k < argc; k++ ) 
+for(k = 1; k < argc; k++ )
 {
-num = atoi(argv[k]); 
-result += num; 
+num = atoi(argv[k]);
+result += num;
 }
 printf("%d\n", result);
 return (0);
