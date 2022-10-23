@@ -25,5 +25,5 @@ else
 {
 strcpy(dest, str);
 }
-return(dest);
+return (dest);
 }
