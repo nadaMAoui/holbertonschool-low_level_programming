@@ -2,9 +2,9 @@
 #include <string.h>
 #include <stdlib.h>
 /**
-* strdup - duplicates a string to a memory 
+* _strdup - a function that duplicates a string to a memory
 *@str: number of chacacters
-*Return: pointer 
+*Return: pointer
 */
 char *_strdup(char *str)
 {
@@ -13,17 +13,17 @@ unsigned int size;
 
 if (str == 0)
 {
-return(NULL);
+return (NULL);
 }
-size = strlen (str) + 1;
+size = strlen(str) + 1;
 dest = (char *) malloc(size *sizeof(char));
-if(dest == 0)
+if (dest == 0)
 {
 return (NULL);
 }
 else
 {
-strcpy (dest, str);
+strcpy(dest, str);
 }
 return(dest);
 }
