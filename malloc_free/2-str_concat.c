@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#include <string.h> 
+#include <string.h>
 /**
 *str_concat - a function that concatenates two array of char
 *@s1: First array
