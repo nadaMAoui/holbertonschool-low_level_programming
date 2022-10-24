@@ -19,7 +19,9 @@ if (s2 == NULL)
 s2 = "";
 
 size = strlen(s1) + strlen(s2) + 1;
-ptr = (char *) malloc(size *sizeof(char));
+ptr = (char *) malloc(size * sizeof(char));
+if (ptr == 0)
+return(NULL);
 
 for (i = 0; *(s1 + i) != '\0'; i++)
 {
