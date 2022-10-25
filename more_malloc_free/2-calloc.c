@@ -12,14 +12,14 @@ unsigned int i;
 char *ptr;
 if (nmemb == 0 || size == 0)
 {
-return(NULL);
+return (NULL);
 }
 ptr = malloc(size * nmemb);
 if (ptr == NULL)
 {
-return(NULL);
+return (NULL);
 }
 for (i = 0; i < (size * nmemb); i++)
 ptr[i] = 0;
-return(ptr);
+return (ptr);
 }
