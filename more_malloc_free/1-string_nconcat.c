@@ -4,8 +4,8 @@
 /**
  * string_nconcat - a function that concatenates n bytes
  * @s1: first string
- * @s2: second string 
- * @n: size of second string 
+ * @s2: second string
+ * @n: size of second string
  * Return: pointer char
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
