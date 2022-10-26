@@ -7,7 +7,7 @@
  * Return: pointer of array
 */
 int *array_range(int min, int max)
-{ int size, i;
+{ int size, i, t = 0;
 int *ptr;
 if (min > max)
 return(NULL);
@@ -20,7 +20,8 @@ return (0);
 
 for (i = 0; i <= max ; i++ )
 {
-ptr[i] = i;
+ptr[i] = t;
+t++;
 }
 return(ptr);
 }
