@@ -7,21 +7,22 @@
  * Return: pointer of array
 */
 int *array_range(int min, int max)
-{ int size, i, t = 0;
+{ int size, i = 0, t = 0;
 int *ptr;
 if (min > max)
 return(0);
 
-size = (max - min) + 1;
+size = max - min + 1;
 ptr = malloc (size * sizeof(int));
 
 if(!ptr)
 return (0);
 
-for (i = 0; i <= max ; i++ )
+while (i < size)
 {
 ptr[i] = t;
+i++;
 t++;
 }
-return(ptr);
+return (ptr);
 }
