@@ -1,16 +1,16 @@
 #ifndef HEADERFILE_H
 #define HEADERFILE_H
 /**
- *struct_dog: a structure tof 3 members
+ *struct dog - a structure tof 3 members.
  *@name: name of the dog
  *@age: age of the dog
  *@owner: owner of the dog
- *Description: this structure is for dog
+ *Return:  success
 */
-struct dog 
+struct dog
 {
-char * name;
+char *name;
 float age;
-char * owner;  
+char *owner;
 };
 #endif
