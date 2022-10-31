@@ -7,7 +7,7 @@
  *@owner: owner of the dog
  *Return:  success
 */
-struct dog
+typedef struct dog
 {
 char *name;
 float age;
