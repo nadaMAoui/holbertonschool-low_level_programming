@@ -19,21 +19,21 @@ printf("Error\n");
 exit(98);
 }
 
-num1 = atoi (argv[1]);
-num2 = atoi (argv[3]);
+num1 = atoi(argv[1]);
+num2 = atoi(argv[3]);
 
 function = get_op_func(argv[2]);
 
 if (!function)
 {
 printf("Error\n");
-exit (99);	
+exit(99);
 }
 input = *argv[2];
 if ((input == '/'  ||  input == '%') && num2 == 0)
 {
 printf("Error\n");
-exit (100);
+exit(100);
 }
 res = function(num1, num2);
 printf("%d\n", res);

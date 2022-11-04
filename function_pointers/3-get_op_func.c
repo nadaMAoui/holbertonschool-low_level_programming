@@ -1,7 +1,7 @@
 #include "3-calc.h"
 #include "string.h"
 /**
- *get_op_func - a function that selects the correct 
+ *get_op_func - a function that selects the correct
  *function to perform the operation asked by the user
  *@s: the operator passed by the user
  *Return: integer

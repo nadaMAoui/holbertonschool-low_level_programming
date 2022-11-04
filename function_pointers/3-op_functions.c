@@ -11,7 +11,7 @@ int op_add(int a, int b)
 {
 int sum;
 sum = a + b;
-return(sum);
+return (sum);
 }
 
 /**
@@ -24,7 +24,7 @@ int op_sub(int a, int b)
 {
 int sub;
 sub = a - b;
-return(sub);
+return (sub);
 }
 
 /**
