@@ -19,5 +19,5 @@ for (i = 0; i < n; i++)
 sum += va_arg(argument, int);
 va_end(argument);
 }
-return(sum);
+return (sum);
 }
