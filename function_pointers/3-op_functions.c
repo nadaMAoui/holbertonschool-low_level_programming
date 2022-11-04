@@ -28,7 +28,7 @@ return(sub);
 }
 
 /**
-*op_muö - a function that multplies two integers
+*op_mul - a function that multplies two integers
 *@a: first integer
 *@b: second integer
 *Return: integer
