@@ -22,21 +22,20 @@ while (t_args[j])
 {
 if (format[i] == t_args[j] && c)
 {
-printf (", ");
+printf(", ");
 break;
-}
-j++;
+}j++;
 }
 switch (format[i])
 {
 case 'c':
-printf ("%c", va_arg(args, int)), c = 1;
+printf("%c", va_arg(args, int)), c = 1;
 break;
 case 'i':
-printf ("%i", va_arg(args, int)), c = 1;
+printf("%i", va_arg(args, int)), c = 1;
 break;
 case 'f':
-printf ("%f", va_arg(args, double)), c = 1;
+printf("%f", va_arg(args, double)), c = 1;
 break;
 case 's':
 str = va_arg(args, char*), c = 1;
