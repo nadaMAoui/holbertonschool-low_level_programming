@@ -13,6 +13,7 @@ va_list args;
 unsigned int i = 0, j, c = 0;
 char *str;
 const char t_args[] = "cif";
+
 va_start(args, format);
 
 while (format && format[i])
@@ -33,7 +34,7 @@ printf("%c", va_arg(args, int)), c = 1;
 break;
 
 case 'i':
-printf("%i", va_arg(args, int)), c = 1;
+printf("%d", va_arg(args, int)), c = 1;
 break;
 
 case 'f':
