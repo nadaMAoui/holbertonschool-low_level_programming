@@ -3,8 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * print_numbers: a variadic function that prints numbers
- * followed with new line
+ * print_numbers: prints numbers, followed by a new line
  * @separator: string printed between two numbers
  * @n: number of integers passed by user
  * @....:a varible number of arguments
