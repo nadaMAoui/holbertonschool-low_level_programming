@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_listsint - print elements of linked list
+ * print_listint - print elements of linked list
  * @h: pointer to linked list
  * Return: c
  */
