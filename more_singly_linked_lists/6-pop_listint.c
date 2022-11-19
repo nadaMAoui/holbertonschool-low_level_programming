@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * pop_listint - delete the head node
- *@head: linked list
+ * @head: linked list
  *Return: int
  */
 int pop_listint(listint_t **head)
@@ -12,11 +12,12 @@ int pop_listint(listint_t **head)
 
 	if (*head == NULL)
 		return (0);
-
+	else
+	{
 		newnode = (*head)->next;
 		pos = (*head)->n;
 		free(*head);
 		(*head) = newnode;
-
+	}
 	return (pos);
 }
