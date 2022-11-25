@@ -3,7 +3,7 @@
  *get_dnodeint_at_index - find the Nth Node in a Linked List
  *@head: linked list
  *@index: index of node
- *Return: 0 success
+ *Return: node with it's index
  */
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
@@ -20,5 +20,5 @@ dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 		length++;
 		current_node = current_node->next;
 	}
-	return (0);
+	return (NULL);
 }
