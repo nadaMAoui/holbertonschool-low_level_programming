@@ -24,10 +24,10 @@ int binary_search(int *array, size_t size, int value)
 
 		for (; i < size; ++i)
 		{
-			if (i == l)
-				printf("%d", array[i]);
-			else
+			if (i != l)
 				printf(", %d", array[i]);
+			else
+				printf("%d", array[i]);
 		}
 		printf("\n");
 
